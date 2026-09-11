@@ -30,6 +30,7 @@
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    padding-bottom: 8px;
 }
 .container-team {
     display: flex;
@@ -38,8 +39,32 @@
 }
 .team-list {
     display: flex;
+    border-radius: 0 0 4px 4px;
+    width: 264px;
+    height: 428px;
     gap: 24px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .member-content-wrapper {
     padding: 32px 16px;
 }
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 24px;
+    width: 232px;
+    height: 40px;
+}
+.link {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background: #4d5ae5;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+
