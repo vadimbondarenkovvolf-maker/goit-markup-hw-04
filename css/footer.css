@@ -38,7 +38,7 @@
     gap: 16px;
     margin-right: 120px;
 }
-.container {
+.container-footer {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;

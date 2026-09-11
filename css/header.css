@@ -49,12 +49,15 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-direction: row;
+    gap: 0;
 }
 
 .ul-menu {
     display: flex;
     gap: 40px;
     flex-grow: 1;
+    
 }
 .ul-contacts {
     display: flex;
@@ -69,4 +72,17 @@ a.contacts {
 }
 .features {
     color: #404bbf;
+}
+.nav-menu  {
+    position: relative;
+    
+}
+.nav-menu::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px; 
+  background-color: #1565c0;
 }
