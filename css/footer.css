@@ -72,7 +72,7 @@
     width: 208px;
     height: 40px;
 }
-.icon-footer {
+.link-footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,9 +83,9 @@
     height: 40px;
     background: #4d5ae5;
     color: #fff;
-    transition: background 250ms;
+    transition: background-color 250ms;
 }
 .link-footer:hover,
 .link-footer:focus {
-    background: #31d0aa;
+    background-color: #31d0aa;
 }
